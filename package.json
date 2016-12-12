@@ -9,6 +9,10 @@
       "ios": "2.4.0"
     }
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shripalsoni04/nativescript-geofire-plugin"
+  },
   "keywords": [
     "Nativescript",
     "Firebase",
@@ -20,6 +24,8 @@
     "website": "www.shripalsoni.com"
   },
   "license": {
-    "type": "MIT"
-  }
+    "type": "MIT",
+    "url": "https://github.com/shripalsoni04/nativescript-geofire-plugin/blob/master/LICENSE"
+  },
+  "homepage": "https://github.com/shripalsoni04/nativescript-geofire-plugin"
 }

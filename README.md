@@ -1,6 +1,6 @@
-# Nativescript-Geofire-Plugin
+# Nativescript-GeoFire-Plugin
 
-GeoFire for Nativescript - Realtime location queries with Firebase.
+[GeoFire](https://firebase.googleblog.com/2014/06/geofire-20.html) for Nativescript - Realtime location queries with Firebase.
 
 The API for this plugin is kept nearly same as of the [web version of geofire](https://github.com/firebase/geofire-js) to increase code reuse across platforms and for easy usage.
 
@@ -18,11 +18,26 @@ import { NSGeoFire } from 'nativescript-geofire-plugin';
 // Here '/geo' is the firebase path which will be used by geoFire for location queries. You can change it to anything.
 let geoFire = new NSGeoFire('/geo');
 
-let query = this.geoFire.query({
-    center: [lat, long],
-    radius: radius
+// Set location with key.
+geoFire.set(key, [lat, long]).then(() => {
+    console.log('Geo key is added ');
 });
 
+// Get location by key.
+geoFire.get(key).then((location)=>{
+    console.log('latitude and longitude ', location[0], location[1]);
+});
+
+// Remove location stored with specified key.
+geoFire.remove(key);
+
+// Location based query.
+let query = this.geoFire.query({
+    center: [lat, long],
+    radius: radius // in km
+});
+
+// Various events triggered by geoFire for the query being executed.
 query.on('key_entered', (key: string, location: number[]) => {
     console.log('key entered ', key, location);
 });
