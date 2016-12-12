@@ -1,4 +1,4 @@
-import { NSGeoQuery, NSGeoCallbackRegistration } from './nativescript-geofire';
+import { NSGeoQuery, NSGeoCallbackRegistration } from './index';
 
 /**
  * All possible geoQuery events.

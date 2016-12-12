@@ -56,4 +56,4 @@ query.on('ready', () => {
 ```
 
 ## API
-For now, refer API from [nativescript-geofire.d.ts](https://github.com/shripalsoni04/nativescript-geofire-plugin/blob/master/nativescript-geofire.d.ts) file.
+For now, refer API from [index.d.ts](https://github.com/shripalsoni04/nativescript-geofire-plugin/blob/master/index.d.ts) file.
