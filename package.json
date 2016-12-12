@@ -27,5 +27,9 @@
     "type": "MIT",
     "url": "https://github.com/shripalsoni04/nativescript-geofire-plugin/blob/master/LICENSE"
   },
-  "homepage": "https://github.com/shripalsoni04/nativescript-geofire-plugin"
+  "homepage": "https://github.com/shripalsoni04/nativescript-geofire-plugin",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/es6-promise": "0.0.32"
+  }
 }
