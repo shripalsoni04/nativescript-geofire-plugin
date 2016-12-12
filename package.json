@@ -1,0 +1,25 @@
+{
+  "name": "nativescript-geofire-plugin",
+  "version": "1.0.0",
+  "description": "GeoFire for Nativescript - Realtime location queries with Firebase for Android and iOS",
+  "main": "nativescript-geofire.js",
+  "nativescript": {
+    "platforms": {
+      "android": "2.4.0",
+      "ios": "2.4.0"
+    }
+  },
+  "keywords": [
+    "Nativescript",
+    "Firebase",
+    "GeoFire"
+  ],
+  "author": {
+    "name": "Shripal Soni",
+    "email": "shripalsoni04@gmail.com",
+    "website": "www.shripalsoni.com"
+  },
+  "license": {
+    "type": "MIT"
+  }
+}

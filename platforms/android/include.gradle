@@ -1,0 +1,12 @@
+android {
+  productFlavors {
+    "nativescript-geofire-plugin" {
+      dimension "nativescript-geofire-plugin"
+    }
+  }
+}
+
+//optional elements
+dependencies {
+    compile 'com.firebase:geofire-android:2.1.1'
+}
