@@ -2,7 +2,15 @@
     "compilerOptions": {
         "module": "commonjs",
         "target": "es5",
+        "sourceMap": true,
+        "noEmitHelpers": true,
+        "noEmitOnError": false,
         "noImplicitAny": false,
-        "sourceMap": false
-    }
+        "noImplicitReturns": true,
+        "removeComments": true,
+        "noLib": false,
+        "declaration": true,
+        "pretty": true
+    },
+    "compileOnSave": false
 }

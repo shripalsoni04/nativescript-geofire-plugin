@@ -58,7 +58,7 @@ export class NSGeoFire extends NSGeoFireCommon {
       return Promise.reject('Key must be provided to remove the location.');
     }
 
-    new Promise(resolve => {
+    return new Promise(resolve => {
       this.geoFire.removeKey(key);
       resolve();
     });

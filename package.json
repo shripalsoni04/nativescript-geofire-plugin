@@ -30,6 +30,7 @@
   "homepage": "https://github.com/shripalsoni04/nativescript-geofire-plugin",
   "dependencies": {},
   "devDependencies": {
-    "@types/es6-promise": "0.0.32"
+    "@types/es6-promise": "0.0.32",
+    "typescript": "^2.0.7"
   }
 }
