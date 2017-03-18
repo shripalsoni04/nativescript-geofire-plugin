@@ -48,8 +48,6 @@ export class NSGeoQueryCommon {
    * Cancels all the event listeners of the query.
    */
   cancel() {
-    this.query.removeAllObservers();
-
     ['key_entered', 'key_exited', 'key_moved', 'ready'].forEach((eventType: string) => {
       this.queryHandles[eventType].forEach((item) => {
         item.cancel();

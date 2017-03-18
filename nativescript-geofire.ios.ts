@@ -128,6 +128,10 @@ export class NSGeoQuery extends NSGeoQueryCommon {
     return this.query.radius;
   }
 
+  cancel() {
+    this.query.removeAllObservers();
+    super.cancel();
+  }
   /**
    * Returns ios EventTypes for the specified eventType.
    */

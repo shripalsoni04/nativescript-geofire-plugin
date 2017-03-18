@@ -19,6 +19,7 @@ export declare class NSGeoQuery extends NSGeoQueryCommon {
     updateCriteria(criteria: IQueryUpdateCriteria): void;
     center(): number[];
     radius(): number;
+    cancel(): void;
     private getIOSEventType(eventType);
     private getNativeLocationCriteria(latitude, longitude);
     private getResultLocationObject(location);
