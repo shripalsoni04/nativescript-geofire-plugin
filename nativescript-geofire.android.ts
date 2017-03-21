@@ -126,7 +126,7 @@ export class NSGeoQuery extends NSGeoQueryCommon {
     }
 
     if (criteria.radius) {
-      this.query.setCenter(criteria.radius);
+      this.query.setRadius(criteria.radius);
     }
   }
 
