@@ -1,4 +1,4 @@
-pod 'GeoFire', :git => 'https://github.com/firebase/geofire-objc.git'
+pod 'GeoFire', :git => 'https://github.com/firebase/geofire-objc.git', :commit => 'dbb8d193f5ee1371837800d0502bd29cba779da4'
 
 post_install do |installer|
   installer.pods_project.targets.each do |target|
