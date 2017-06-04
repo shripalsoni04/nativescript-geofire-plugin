@@ -1,6 +1,6 @@
 {
   "name": "nativescript-geofire-plugin",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "GeoFire for Nativescript - Realtime location queries with Firebase for Android and iOS",
   "main": "nativescript-geofire",
   "nativescript": {
